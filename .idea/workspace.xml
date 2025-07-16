@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Update workspace metadata to reflect recent changes to the Animal hierarchy.">
-      <change afterPath="$PROJECT_DIR$/src/Utils/AnimalFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Bird.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bird.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Bird.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bird.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +86,7 @@
       <workItem from="1752657870867" duration="450000" />
       <workItem from="1752658340383" duration="26000" />
       <workItem from="1752658407367" duration="386000" />
-      <workItem from="1752658814702" duration="11394000" />
+      <workItem from="1752658814702" duration="11539000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -148,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752669646809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update workspace metadata to reflect recent changes to the Animal hierarchy.">
+      <option name="closed" value="true" />
+      <created>1752675828572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752675828572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
