@@ -1,10 +1,9 @@
 <?php
 
-require 'classes/Animal.php';
-require 'classes/Cat.php';
-require 'classes/Dog.php';
-require 'classes/Bird.php';
-require 'classes/Refuge.php';
+//simpler auto-loader
+spl_autoload_register(function ($class) {
+    require "src/Model/" . $class . '.php';
+});
 
 
 $catty = new Cat("Catty", 2, 3);
@@ -17,7 +16,7 @@ $refuge->addAnimal($catty);
 $refuge->addAnimal($doggy);
 $refuge->addAnimal($birdy);
 
-echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNumber() . PHP_EOL;
+echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNumber() . PHP_EOL; //static methods are used widely
 
 echo "The number of animals inside the refuge is " . $refuge->getAnimalsNumber() . PHP_EOL;
 

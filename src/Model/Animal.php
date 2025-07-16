@@ -1,5 +1,7 @@
 <?php
 
+//we added abstract to the class because it contains an abstract method "makeSound",
+// this method is empty here but must be declared in all child classes
 abstract class Animal
 {
     protected string $name;

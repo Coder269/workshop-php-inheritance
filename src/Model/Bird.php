@@ -1,10 +1,10 @@
 <?php
 
-class Dog extends Animal
+
+class Bird extends Animal
 {
     public function makeSound(): string
     {
-        return "Woof";
+        return "Chirp";
     }
-
 }

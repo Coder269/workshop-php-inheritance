@@ -1,5 +1,6 @@
 <?php
 
+
 class Refuge
 {
     private array $animals = [];

@@ -4,8 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`.">
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Update workspace metadata to reflect recent changes to the Animal hierarchy.">
+      <change afterPath="$PROJECT_DIR$/src/Utils/AnimalFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Bird.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bird.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +59,7 @@
     "accountId": "ff753e42-94d2-4c21-9797-8b41d6d266a7"
   }
 }]]></component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../../wamp64/bin/php/php8.3.14/php.exe">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-    </include_path>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../../wamp64/bin/php/php8.3.14/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -61,6 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
@@ -86,7 +106,7 @@
       <workItem from="1752657870867" duration="450000" />
       <workItem from="1752658340383" duration="26000" />
       <workItem from="1752658407367" duration="386000" />
-      <workItem from="1752658814702" duration="7076000" />
+      <workItem from="1752658814702" duration="11394000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -120,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752667505815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update workspace metadata to reflect recent changes to the Animal hierarchy.">
+      <option name="closed" value="true" />
+      <created>1752669646809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752669646809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +183,9 @@
     <MESSAGE value="Add Animal hierarchy and basic refuge implementation" />
     <MESSAGE value="Introduce basic Animal hierarchy with Composer autoloader setup" />
     <MESSAGE value="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`." />
+    <MESSAGE value="Update workspace.xml: Reflect task completion for enhanced Animal hierarchy" />
+    <MESSAGE value="Update workspace metadata to reflect recent changes to the Animal hierarchy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace metadata to reflect recent changes to the Animal hierarchy." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
