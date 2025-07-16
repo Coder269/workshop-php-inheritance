@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Introduce basic Animal hierarchy with Composer autoloader setup">
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Bird.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Bird.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Cat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Refuge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1752657870867" duration="450000" />
       <workItem from="1752658340383" duration="26000" />
       <workItem from="1752658407367" duration="386000" />
-      <workItem from="1752658814702" duration="5234000" />
+      <workItem from="1752658814702" duration="7076000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -118,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752658856744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`.">
+      <option name="closed" value="true" />
+      <created>1752667505815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752667505815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +154,8 @@
     <MESSAGE value="Initialize project with basic classes and Composer files." />
     <MESSAGE value="Add Animal hierarchy and basic refuge implementation" />
     <MESSAGE value="Introduce basic Animal hierarchy with Composer autoloader setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce basic Animal hierarchy with Composer autoloader setup" />
+    <MESSAGE value="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
