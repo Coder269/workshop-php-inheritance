@@ -17,11 +17,13 @@ $refuge->addAnimal($catty);
 $refuge->addAnimal($doggy);
 $refuge->addAnimal($birdy);
 
+echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNumber() . PHP_EOL;
+
 echo "The number of animals inside the refuge is " . $refuge->getAnimalsNumber() . PHP_EOL;
 
 $refuge->makeAllSounds();
+echo $catty->getAge();
 
-echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNumber() . PHP_EOL;
 
 
 

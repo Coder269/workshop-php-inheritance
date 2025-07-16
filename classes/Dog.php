@@ -2,9 +2,9 @@
 
 class Dog extends Animal
 {
-    public function makeSound(): void
+    public function makeSound(): string
     {
-        echo "Woof" . PHP_EOL;
+        return "Woof";
     }
 
 }

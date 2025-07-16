@@ -2,8 +2,9 @@
 
 class Cat extends Animal
 {
-    public function makeSound(): void
+    public function makeSound(): string
     {
-        echo "Meow" . PHP_EOL;
+        return "Meow";
+
     }
 }

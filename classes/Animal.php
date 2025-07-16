@@ -1,10 +1,10 @@
 <?php
 
-class Animal
+abstract class Animal
 {
-    private string $name;
-    private int $age;
-    private float $weight;
+    protected string $name;
+    protected int $age;
+    protected float $weight;
     private static int $animalsTotalNumber = 0;
 
     public function __construct(string $name, int $age, float $weight)
@@ -14,6 +14,9 @@ class Animal
         $this->weight = $weight;
         self::$animalsTotalNumber++;
     }
+
+    public abstract function makeSound(): string;
+
 
     public function getName(): string
     {

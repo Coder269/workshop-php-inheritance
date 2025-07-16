@@ -12,7 +12,7 @@ class Refuge
     public function makeAllSounds(): void
     {
         foreach ($this->animals as $animal)
-            $animal->makeSound();
+            echo "{$animal->getName()} makes sound {$animal->makeSound()}" . PHP_EOL;
     }
 
     public function getAnimalsNumber(): int

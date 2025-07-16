@@ -2,8 +2,8 @@
 
 class Bird extends Animal
 {
-    public function makeSound(): void
+    public function makeSound(): string
     {
-        echo "Chirp" . PHP_EOL;
+        return "Chirp";
     }
 }
