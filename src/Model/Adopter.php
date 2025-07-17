@@ -14,13 +14,10 @@ final class Adopter
 
     public function adoptAnimal(Animal $animal): void
     {
-        foreach ($this->adoptedAnimals as $adoptedAnimal) {
-            if ($animal === $adoptedAnimal) {
-                echo "This animal is already adopted" . PHP_EOL;
-                return;
-            }
-        }
+        if ($animal->isAdopted())
+            return;
         $this->adoptedAnimals[] = $animal;
+        $animal->setIsAdopted(true);
     }
 
     public function getAdoptedAnimals(): array

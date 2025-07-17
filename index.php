@@ -1,12 +1,9 @@
 <?php
 
-spl_autoload_register(function ($className) {
-    $path = str_replace('App', 'src', $className);
-    $path = str_replace('\\', '/', $path);
-    require_once $path . '.php';
-});
+require_once 'autoloader.php';
 
 use App\Model\{Animal, Cat, Dog, Bird, Refuge, Adopter};
+use App\Utils\AnimalFormatter;
 
 
 $catty = new Cat("Catty", 2, 3);
@@ -32,6 +29,7 @@ $Zaher->adoptAnimal($catty);
 
 print_r($Zaher->getAdoptedAnimals());
 
+AnimalFormatter::describeAnimal($catty);
 
 
 
