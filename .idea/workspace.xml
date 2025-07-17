@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Update workspace metadata to reflect recent changes to the Animal hierarchy.">
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Introduce Adopter model and update namespace organization for clarity">
+      <change afterPath="$PROJECT_DIR$/src/Model/Adopter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Animal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Bird.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bird.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <workItem from="1752657870867" duration="450000" />
       <workItem from="1752658340383" duration="26000" />
       <workItem from="1752658407367" duration="386000" />
-      <workItem from="1752658814702" duration="11539000" />
+      <workItem from="1752658814702" duration="19517000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -136,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752675828572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clean up formatting in animal models and update workspace metadata">
+      <option name="closed" value="true" />
+      <created>1752675979667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752675979667</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +185,9 @@
     <MESSAGE value="Enhance Animal hierarchy: make `Animal` abstract, add `makeSound` method, and refactor animal sound handling in `Refuge`." />
     <MESSAGE value="Update workspace.xml: Reflect task completion for enhanced Animal hierarchy" />
     <MESSAGE value="Update workspace metadata to reflect recent changes to the Animal hierarchy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace metadata to reflect recent changes to the Animal hierarchy." />
+    <MESSAGE value="Clean up formatting in animal models and update workspace metadata" />
+    <MESSAGE value="Introduce Adopter model and update namespace organization for clarity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce Adopter model and update namespace organization for clarity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,16 +1,19 @@
 <?php
 
-//simpler auto-loader
-spl_autoload_register(function ($class) {
-    require "src/Model/" . $class . '.php';
+spl_autoload_register(function ($className) {
+    $path = str_replace('App', 'src', $className);
+    $path = str_replace('\\', '/', $path);
+    require_once $path . '.php';
 });
+
+use App\Model\{Animal, Cat, Dog, Bird, Refuge, Adopter};
 
 
 $catty = new Cat("Catty", 2, 3);
 $doggy = new Dog("Doggy", 4, 15);
 $birdy = new Bird("Birdy", 1, 0.1);
 
-$refuge = new refuge();
+$refuge = new Refuge();
 
 $refuge->addAnimal($catty);
 $refuge->addAnimal($doggy);
@@ -21,7 +24,13 @@ echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNum
 echo "The number of animals inside the refuge is " . $refuge->getAnimalsNumber() . PHP_EOL;
 
 $refuge->makeAllSounds();
-echo $catty->getAge();
+
+$Zaher = new Adopter("Zaher");
+$Zaher->adoptAnimal($catty);
+$Zaher->adoptAnimal($doggy);
+$Zaher->adoptAnimal($catty);
+
+print_r($Zaher->getAdoptedAnimals());
 
 
 
