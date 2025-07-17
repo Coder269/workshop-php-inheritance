@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Introduce Adopter model and update namespace organization for clarity">
-      <change afterPath="$PROJECT_DIR$/autoloader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-inheritance.iml" afterDir="false" />
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic">
+      <change afterPath="$PROJECT_DIR$/src/Interface/IdentifiableInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Adopter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Adopter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/AnimalFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/AnimalFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1752658407367" duration="386000" />
       <workItem from="1752658814702" duration="19517000" />
       <workItem from="1752743343784" duration="2556000" />
-      <workItem from="1752751472178" duration="684000" />
+      <workItem from="1752751472178" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752675979667</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic">
+      <option name="closed" value="true" />
+      <created>1752752470277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752752470277</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +197,8 @@
     <MESSAGE value="Update workspace metadata to reflect recent changes to the Animal hierarchy." />
     <MESSAGE value="Clean up formatting in animal models and update workspace metadata" />
     <MESSAGE value="Introduce Adopter model and update namespace organization for clarity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce Adopter model and update namespace organization for clarity" />
+    <MESSAGE value="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

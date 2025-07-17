@@ -2,6 +2,8 @@
 
 namespace App\Model;
 
+use App\Interface\IdentifiableInterface;
+
 class Refuge
 {
     private array $animals = [];
@@ -20,5 +22,12 @@ class Refuge
     public function getAnimalsNumber(): int
     {
         return count($this->animals);
+    }
+
+    public function listIdentifiableAnimals(): void
+    {
+        foreach ($this->animals as $animal)
+            if ($animal instanceof IdentifiableInterface)
+                echo "{$animal->getName()} is a {$animal->getIdentifier()}" . PHP_EOL;
     }
 }

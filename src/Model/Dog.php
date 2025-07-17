@@ -3,11 +3,18 @@
 namespace App\Model;
 
 
-class Dog extends Animal
+use App\Interface\IdentifiableInterface;
+
+class Dog extends Animal implements IdentifiableInterface
 {
     public function makeSound(): string
     {
         return "Woof";
+    }
+
+    public function getIdentifier(): string
+    {
+        return "Dog";
     }
 
 }
