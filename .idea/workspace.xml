@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic">
-      <change afterPath="$PROJECT_DIR$/src/Interface/IdentifiableInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
-    </list>
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Add `IdentifiableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` to list identifiable animals" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +85,7 @@
       <workItem from="1752658407367" duration="386000" />
       <workItem from="1752658814702" duration="19517000" />
       <workItem from="1752743343784" duration="2556000" />
-      <workItem from="1752751472178" duration="3538000" />
+      <workItem from="1752751472178" duration="3957000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -158,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752752470277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add `IdentifiableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` to list identifiable animals">
+      <option name="closed" value="true" />
+      <created>1752757091078</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752757091078</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +199,8 @@
     <MESSAGE value="Clean up formatting in animal models and update workspace metadata" />
     <MESSAGE value="Introduce Adopter model and update namespace organization for clarity" />
     <MESSAGE value="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic" />
+    <MESSAGE value="Add `IdentifiableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` to list identifiable animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `IdentifiableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` to list identifiable animals" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

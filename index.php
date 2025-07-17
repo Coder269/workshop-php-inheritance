@@ -19,13 +19,13 @@ $refuge->addAnimal($doggy);
 $refuge->addAnimal($birdy);
 $refuge->addAnimal($catty2);
 
-echo "The total number of instantiated animals is " . Animal::getAnimalsTotalNumber() . PHP_EOL; //static methods are used widely
+echo "The total number of instantiated animals is: " . Animal::getAnimalsTotalNumber() . PHP_EOL; //static methods are used widely
 
 echo "The number of animals inside the refuge is " . $refuge->getAnimalsNumber() . PHP_EOL;
 
 echo PHP_EOL;
 
-echo "Making all animals in the refuge make sounds" . PHP_EOL;
+echo "Making all animals in the refuge make sounds:" . PHP_EOL;
 $refuge->makeAllSounds();
 
 echo PHP_EOL;
