@@ -6,10 +6,10 @@ use App\Model\{Animal, Cat, Dog, Bird, Refuge, Adopter};
 use App\Utils\AnimalFormatter;
 
 
-$catty = new Cat("Catty", 2, 3);
-$doggy = new Dog("Doggy", 4, 15);
+$catty = new Cat("Catty", 2, 3, "012025");
+$doggy = new Dog("Doggy", 4, 15, "022025");
 $birdy = new Bird("Birdy", 1, 0.1);
-$catty2 = new Cat("Catty 2", 1, 5);
+$catty2 = new Cat("Catty 2", 1, 5, "022025");
 
 
 $refuge = new Refuge();
@@ -46,6 +46,10 @@ echo PHP_EOL;
 
 echo "Describing a specific animal using a static method:" . PHP_EOL;
 AnimalFormatter::describeAnimal($catty);
+
+echo PHP_EOL;
+
+echo "The identifier of " . $catty->getName() . " is " . $catty->getIdentifier();
 
 
 
