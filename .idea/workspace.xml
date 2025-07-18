@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Update workspace metadata and improve output formatting in `index.php`">
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Add `shipNumber` property to `Dog` and `Cat` models for unique identification; update constructors and related method implementations">
+      <change afterPath="$PROJECT_DIR$/src/Exception/AlreadyAdoptedException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Adopter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Adopter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +93,9 @@
       <workItem from="1752658407367" duration="386000" />
       <workItem from="1752658814702" duration="19517000" />
       <workItem from="1752743343784" duration="2556000" />
-      <workItem from="1752751472178" duration="6389000" />
+      <workItem from="1752751472178" duration="7136000" />
+      <workItem from="1752761767729" duration="1501000" />
+      <workItem from="1752822670638" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -173,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752757667560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add `shipNumber` property to `Dog` and `Cat` models for unique identification; update constructors and related method implementations">
+      <option name="closed" value="true" />
+      <created>1752760259907</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752760259907</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +227,8 @@
     <MESSAGE value="Refactor project structure: enhance autoloader, extend `Animal` model with `isAdopted` functionality, implement `AnimalFormatter`, and adjust `Adopter` logic" />
     <MESSAGE value="Add `IdentifiableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` to list identifiable animals" />
     <MESSAGE value="Update workspace metadata and improve output formatting in `index.php`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace metadata and improve output formatting in `index.php`" />
+    <MESSAGE value="Add `shipNumber` property to `Dog` and `Cat` models for unique identification; update constructors and related method implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `shipNumber` property to `Dog` and `Cat` models for unique identification; update constructors and related method implementations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -38,7 +38,15 @@ echo PHP_EOL;
 $Zaher = new Adopter("Zaher");
 $Zaher->adoptAnimal($catty);
 $Zaher->adoptAnimal($doggy);
-$Zaher->adoptAnimal($catty); //will not be adopted two times because the class Animal has a protected property isAdopted
+
+try {
+    $Zaher->adoptAnimal($catty);
+
+} catch (Exception $e) {
+    echo $e->getMessage() . PHP_EOL;
+}
+
+echo PHP_EOL;
 
 echo "Zaher's adopted animals are:" . PHP_EOL;
 print_r($Zaher->getAdoptedAnimals());

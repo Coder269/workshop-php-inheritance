@@ -28,6 +28,6 @@ class Refuge
     {
         foreach ($this->animals as $animal)
             if ($animal instanceof IdentifiableInterface)
-                echo "{$animal->getName()} is a {$animal->getIdentifier()}" . PHP_EOL;
+                echo "{$animal->getName()} has identifier: {$animal->getIdentifier()}" . PHP_EOL;
     }
 }
