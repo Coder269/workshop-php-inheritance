@@ -58,6 +58,8 @@ try {
 
 try {
     $refuge->adopt($Zaher, $catty);
+    //Traitement front html pour féliciter l'adopter présumé que l'adoption est réussie
+    //On peut faire afficher un toast (bulle de notification) qui s'affiche qq part sur l'écran) en utilisant "Toastify JS"
     echo "Congratulations! {$Zaher->getName()} you have successfully adopted an animal!";
 } catch (AnimalNotInTheRefuge $exception) {
     echo $exception->getMessage() . PHP_EOL;
@@ -67,6 +69,8 @@ try {
 
 try {
     $refuge->adopt($Zaher, $catty2);
+    //Traitement front html pour féliciter l'adopter présumé que l'adoption est réussie
+    //On peut faire afficher un toast (bulle de notification) qui s'affiche qq part sur l'écran) en utilisant "Toastify JS"
     echo "Congratulations! {$Zaher->getName()}, you have successfully adopted an animal!";
 } catch (AnimalNotInTheRefuge $exception) {
     echo $exception->getMessage() . PHP_EOL;

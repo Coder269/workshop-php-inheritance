@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Introduce `AdoptabtableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` with adoption logic, add exception handling, and improve error handling with a global `errorHandler`.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="26cf6590-f2f9-41af-b65e-ccec858dc948" name="Changes" comment="Refine adoption logic in `Refuge`, `Dog`, and `Cat` models by introducing `MAXIMUM_ADOPTION_AGE` constant; improve `Adopter` and exception handling flow, and update output formatting in `index.php`.">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Adopter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Adopter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Refuge.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Refuge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <workItem from="1752743343784" duration="2556000" />
       <workItem from="1752751472178" duration="7136000" />
       <workItem from="1752761767729" duration="1501000" />
-      <workItem from="1752822670638" duration="15039000" />
+      <workItem from="1752822670638" duration="15162000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with basic classes and Composer files.">
       <option name="closed" value="true" />
@@ -212,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752835370059</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refine adoption logic in `Refuge`, `Dog`, and `Cat` models by introducing `MAXIMUM_ADOPTION_AGE` constant; improve `Adopter` and exception handling flow, and update output formatting in `index.php`.">
+      <option name="closed" value="true" />
+      <created>1752844274135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752844274135</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +260,8 @@
     <MESSAGE value="Throw `AlreadyAdoptedException` when attempting to adopt an already adopted animal; refine output formatting in `Refuge`." />
     <MESSAGE value="Refine `Adopter` logic by adding exception handling for already adopted animals; update workspace metadata and import statements." />
     <MESSAGE value="Introduce `AdoptabtableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` with adoption logic, add exception handling, and improve error handling with a global `errorHandler`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce `AdoptabtableInterface` and implement it in `Dog` and `Cat` classes; enhance `Refuge` with adoption logic, add exception handling, and improve error handling with a global `errorHandler`." />
+    <MESSAGE value="Refine adoption logic in `Refuge`, `Dog`, and `Cat` models by introducing `MAXIMUM_ADOPTION_AGE` constant; improve `Adopter` and exception handling flow, and update output formatting in `index.php`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refine adoption logic in `Refuge`, `Dog`, and `Cat` models by introducing `MAXIMUM_ADOPTION_AGE` constant; improve `Adopter` and exception handling flow, and update output formatting in `index.php`." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
