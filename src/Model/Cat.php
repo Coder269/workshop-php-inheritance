@@ -2,9 +2,10 @@
 
 namespace App\Model;
 
+use App\Interface\AdoptabtableInterface;
 use App\Interface\IdentifiableInterface;
 
-class Cat extends Animal implements IdentifiableInterface
+class Cat extends Animal implements IdentifiableInterface, AdoptabtableInterface
 {
     private string $shipNumber;
 
@@ -23,6 +24,11 @@ class Cat extends Animal implements IdentifiableInterface
     public function getIdentifier(): string
     {
         return $this->shipNumber;
+    }
+
+    public function canBeAdopted(): bool
+    {
+        return $this->getAge() < 15;
     }
 }
 
