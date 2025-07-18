@@ -9,6 +9,7 @@ use App\Interface\IdentifiableInterface;
 class Dog extends Animal implements IdentifiableInterface, AdoptabtableInterface
 {
     private string $shipNumber;
+    private const int MAXIMUM_ADOPTION_AGE = 15;
 
     public function __construct(string $name, int $age, float $weight, string $shipNumber)
     {
@@ -29,7 +30,7 @@ class Dog extends Animal implements IdentifiableInterface, AdoptabtableInterface
 
     public function canBeAdopted(): bool
     {
-        return $this->getAge() < 15;
+        return $this->getAge() < self::MAXIMUM_ADOPTION_AGE;
     }
 
 }

@@ -41,11 +41,13 @@ echo PHP_EOL;
 
 $Zaher = new Adopter("Zaher");
 $Zaher->adoptAnimal($catty);
-$Zaher->adoptAnimal($doggy);
 
 
 try {
     $refuge->adopt($Zaher, $birdy);
+    //Traitement front html pour féliciter l'adopter présumé que l'adoption est réussie
+    //On peut faire afficher un toast (bulle de notification) qui s'affiche qq part sur l'écran) en utilisant "Toastify JS"
+    echo "Congratulations! {$Zaher->getName()} you have successfully adopted an animal!";
 } catch (AnimalNotInTheRefuge $exception) {
     echo $exception->getMessage() . PHP_EOL;
 } catch (AlreadyAdoptedException $exception2) {
@@ -56,6 +58,7 @@ try {
 
 try {
     $refuge->adopt($Zaher, $catty);
+    echo "Congratulations! {$Zaher->getName()} you have successfully adopted an animal!";
 } catch (AnimalNotInTheRefuge $exception) {
     echo $exception->getMessage() . PHP_EOL;
 } catch (AlreadyAdoptedException $exception2) {
@@ -64,13 +67,28 @@ try {
 
 try {
     $refuge->adopt($Zaher, $catty2);
+    echo "Congratulations! {$Zaher->getName()}, you have successfully adopted an animal!";
 } catch (AnimalNotInTheRefuge $exception) {
     echo $exception->getMessage() . PHP_EOL;
 } catch (AlreadyAdoptedException $exception2) {
     echo $exception2->getMessage() . PHP_EOL;
 }
 
-// $refuge->adopt($Zaher, $catty2); //if activated this line will lead to exception handler error and stops the program
+try {
+    $refuge->adopt($Zaher, $doggy);
+    //Traitement front html pour féliciter l'adopter présumé que l'adoption est réussie
+    //On peut faire afficher un toast (bulle de notification) qui s'affiche qq part sur l'écran) en utilisant "Toastify JS"
+    echo "Congratulations! {$Zaher->getName()} you have successfully adopted an animal!";
+} catch (AnimalNotInTheRefuge $exception) {
+    echo $exception->getMessage() . PHP_EOL;
+} catch (AlreadyAdoptedException $exception2) {
+    echo $exception2->getMessage() . PHP_EOL;
+} catch (CanNotBeAdopted $exception3) {
+    echo $exception3->getMessage() . PHP_EOL;
+}
+
+// $refuge->adopt($Zaher, $catty2);
+//if activated this line will lead to exception handler error and stops the program
 //because the exception was not caught using try/catch so it was caught instead using the errorHandler
 
 

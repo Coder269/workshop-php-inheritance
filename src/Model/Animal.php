@@ -10,9 +10,10 @@ abstract class Animal
     protected string $name;
     protected int $age;
     protected float $weight;
+    protected bool $isAdopted = false;
+    
     private static int $animalsTotalNumber = 0;
 
-    protected bool $isAdopted = false;
 
     public function __construct(string $name, int $age, float $weight)
     {

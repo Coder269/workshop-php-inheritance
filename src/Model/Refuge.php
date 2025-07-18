@@ -2,6 +2,7 @@
 
 namespace App\Model;
 
+use App\Exception\AlreadyAdoptedException;
 use App\Exception\AnimalNotInTheRefuge;
 use App\Exception\CanNotBeAdopted;
 use App\Interface\AdoptabtableInterface;
@@ -37,6 +38,9 @@ class Refuge
     public function adopt(Adopter $adopter, Animal $animalToAdopt): void
     {
         if (in_array($animalToAdopt, $this->animals)) {
+            if ($animalToAdopt->isAdopted()) {
+                throw new AlreadyAdoptedException("Error: This animal is already adopted!");
+            }
             if ($animalToAdopt instanceof AdoptabtableInterface && $animalToAdopt->canBeAdopted()) {
                 $adopter->adoptAnimal($animalToAdopt);
             } else

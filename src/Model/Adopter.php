@@ -2,8 +2,6 @@
 
 namespace App\Model;
 
-use App\Exception\AlreadyAdoptedException;
-
 final class Adopter
 {
     private string $name;
@@ -13,12 +11,9 @@ final class Adopter
     {
         $this->name = $name;
     }
-    
+
     public function adoptAnimal(Animal $animal): void
     {
-        if ($animal->isAdopted()) {
-            throw new AlreadyAdoptedException("Error: This animal is already adopted!");
-        }
         $this->adoptedAnimals[] = $animal;
         $animal->setIsAdopted(true);
     }
@@ -26,6 +21,16 @@ final class Adopter
     public function getAdoptedAnimals(): array
     {
         return $this->adoptedAnimals;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): void
+    {
+        $this->name = $name;
     }
 
 
