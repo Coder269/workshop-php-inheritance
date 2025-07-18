@@ -13,7 +13,7 @@ final class Adopter
     {
         $this->name = $name;
     }
-
+    
     public function adoptAnimal(Animal $animal): void
     {
         if ($animal->isAdopted()) {

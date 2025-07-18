@@ -3,6 +3,7 @@
 require_once 'autoloader.php';
 
 use App\Model\{Animal, Cat, Dog, Bird, Refuge, Adopter};
+use App\Exception\AlreadyAdoptedException;
 use App\Utils\AnimalFormatter;
 
 
@@ -42,7 +43,7 @@ $Zaher->adoptAnimal($doggy);
 try {
     $Zaher->adoptAnimal($catty);
 
-} catch (Exception $e) {
+} catch (AlreadyAdoptedException $e) {
     echo $e->getMessage() . PHP_EOL;
 }
 
